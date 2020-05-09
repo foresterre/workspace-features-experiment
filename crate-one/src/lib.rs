@@ -1,7 +1,7 @@
 pub fn a_callable_fn() {
-    if cfg!(feature = "feat_one") {
-        println!("[crate: crate-one] (feature = feat_one) ENABLED");
+    if cfg!(feature = "feat-one") {
+        println!("[crate: crate-one] (feature = feat-one) ENABLED");
     } else {
-        println!("[crate: crate-one] (feature = feat_one) DISABLED");
+        println!("[crate: crate-one] (feature = feat-one) DISABLED");
     }
 }
