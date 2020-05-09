@@ -1,0 +1,15 @@
+[package]
+name = "workspace-features-experiment"
+version = "0.1.0"
+authors = ["Martijn Gribnau <garm@ilumeo.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crate-one = { path = "crate-one" }
+
+[workspace]
+members = [
+    "crate-one"
+]
