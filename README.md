@@ -19,7 +19,7 @@ failed to select a version for `crate-one` which could resolve this conflict
 ```
 
 
-branch: underscores
+branch: [underscores](https://github.com/foresterre/workspace-features-experiment/tree/underscores)
 ### ✔️ cargo +nightly run --features 'crate_one/feat_one' -Z package-features
 
 ```
